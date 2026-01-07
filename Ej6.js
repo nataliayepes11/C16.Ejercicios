@@ -1,5 +1,14 @@
-/* Ejercicio 6: Agrega un prefi jo y un sufi jo a cada palabra
+/* Ejercicio 6: Agrega un prefijo y un sufijo a cada palabra
 Supongamos que tienes una lista de palabras ['hola', 'mundo', 'javascript']. 
-Queremos transformarlas para que cada palabra tenga un prefi jo "¡" y un sufi jo "!". 
+Queremos transformarlas para que cada palabra tenga un prefijo "¡" y un sufijo "!". 
 Por ejemplo, la palabra "hola" se debería convertir en "¡hola!".
 */
+
+let palabras = [`hola`, `mundo`, `javascript`];
+
+let signosAdmiracion = palabras.map(function(string){
+    return "¡" + string + "!";
+
+});
+
+console.log(signosAdmiracion);
