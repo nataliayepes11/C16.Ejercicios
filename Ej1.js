@@ -5,3 +5,10 @@ Por ejemplo, el número 2 debería convertirse en 4, el número 4 en 16, y así 
 Al final, imprime la nueva lista.
 */
 
+let lista = [2 , 4, 6, 8];
+
+let cuadrados = lista.map(function (numero){
+    return numero * numero;
+});
+
+console.log(cuadrados);
