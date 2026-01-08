@@ -6,9 +6,8 @@ Por ejemplo, la palabra "hola" se debería convertir en "¡hola!".
 
 let palabras = [`hola`, `mundo`, `javascript`];
 
-let signosAdmiracion = palabras.map(function(string){
-    return "¡" + string + "!";
-
+let signosAdmiracion = palabras.map(function(item){
+    return "¡" + item + "!";
 });
 
 console.log(signosAdmiracion);
