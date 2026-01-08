@@ -29,7 +29,6 @@ let peliMasCorta = movies.reduce(function(menor, pelicula) {
 console.log("La película más corta es: " + peliMasCorta.title + " que dura " + peliMasCorta.duration + " minutos.");
 
 //2) De las películas restantes, quedarnos con aquellas cuyo título tenga más de 10 caracteres.
-
 let moviesRestantes = movies.filter(function(pelicula){
     return pelicula !== peliMasCorta;
 });
