@@ -3,3 +3,12 @@ Dada la lista ['Me', 'gusta', 'aprender', 'JavaScript'],
 queremos construir una frase completa concatenando cada palabra en orden, separadas por espacios. 
 Al fi nal, deberíamos obtener el texto 'Me gusta aprender JavaScript'.
 */
+
+let arrayInicial = [`Me`, `gusta`, `aprender`, `JavaScript`];
+
+let frase = arrayInicial.reduce((acumulador, palabra) => {
+    return acumulador + palabra + " ";
+}, "").trim();
+
+console.log(frase);
+    
