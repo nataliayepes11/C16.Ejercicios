@@ -33,6 +33,7 @@ console.log("La película más corta es: " + peliMasCorta.title + " que dura " +
 let moviesRestantes = movies.filter(function(pelicula){
     return pelicula !== peliMasCorta;
 });
+
 //console.log(moviesRestantes); // Para control mío esta línea.
 console.log("--- PELICULAS CUYO TÍTULO TIENE MÁS DE 10 CARACTERES --- ") // "La prolijación" :P 
 let titulosMasDe10 = moviesRestantes.filter(function(pelicula){
